@@ -254,7 +254,7 @@ main a {
 @media (max-width: 768px) {
     nav ul {
         flex-direction: row;
-        gap: 5px;
+        gap: 8px;
     }
 
     .top-main h1, .top-main h2 {
