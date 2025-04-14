@@ -265,3 +265,10 @@ main a {
         max-width: 80%;
     }
 }
+
+
+nav ul li::after {
+    content: "|";
+    margin-left: 15px;
+    color: white;
+}
