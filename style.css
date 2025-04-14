@@ -110,17 +110,17 @@ main img{
 }
 nav {
     align-self: start;
-    margin: 20px 5px;
-    
-    
+    margin: 20px 0px;
+    gap: 10px;
+    padding-left: 10px;
 }
 
 nav ul {
     list-style: none;
-    
+    padding-right: 10px;
     display: flex;
-    margin: 20px;
-    gap: 20px;
+    
+    gap: 10px;
     margin-bottom: 30px;
 }
 
@@ -252,10 +252,21 @@ main a {
 }
 
 @media (max-width: 768px) {
+    body header {
+        height: 200px;
+    }
+
     nav ul {
         flex-direction: row;
         gap: 8px;
+        font-size: 14px;
     }
+
+    nav ul li::after {
+        content: "|";
+        margin-left: 5px;
+        color: white;
+}
 
     .top-main h1, .top-main h2 {
         font-size: 1.2rem;
@@ -266,9 +277,9 @@ main a {
     }
 }
 
-
 nav ul li::after {
     content: "|";
-    margin-left: 15px;
+    margin-left: 5px;
     color: white;
 }
+
