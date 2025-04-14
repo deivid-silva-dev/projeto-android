@@ -88,6 +88,7 @@ main img{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.511);
     color: white;
     height: 130px;
+    gap: 20px;
 }
 
 .top-main h1 {
